@@ -6,8 +6,7 @@ function insert_Row() {
     const newRow = table.insertRow(0); // Insert at index 0 (top of the table)
 
     // Create the left cell and set its content
-     // Insert a cell at index 0
-	const cell1 = newRow.insertCell(0);
+    const cell1 = newRow.insertCell(0); // Insert a cell at index 0
     cell1.textContent = "New Cell1"; // Set the text content
 
     // Create the right cell and set its content
